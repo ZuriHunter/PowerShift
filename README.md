@@ -12,7 +12,7 @@ A tool for workers for to gain the power in understanding their market worth and
 * Erin Rothback
 * Kristin Abkemeier
 * Maragaret Furr
-* Seul Furr
+* Seul Rhee
 * Zuri Hunter
 
 To learn about everyone's roles within the project visit [this link!](https://docs.google.com/spreadsheets/d/16_AYqlDIejewdV7qt9aSglfb5AdXSlfKlwarYf6Hh_U/edit?usp=sharing)
