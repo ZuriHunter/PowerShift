@@ -1,0 +1,26 @@
+{
+  "name": "powershift",
+  "version": "1.0.0",
+  "description": "A tool for workers for to gain the power in understanding their market worth and use that knowledge to their leverage in advancing within their industry.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ofer-Idan/PowerShift.git"
+  },
+  "keywords": [
+    "Salary",
+    "Data",
+    "PayGap",
+    "Open",
+    "Source"
+  ],
+  "author": "PowerShift",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ofer-Idan/PowerShift/issues"
+  },
+  "homepage": "https://github.com/Ofer-Idan/PowerShift#readme"
+}
