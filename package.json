@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Ofer-Idan/PowerShift/issues"
   },
-  "homepage": "https://github.com/Ofer-Idan/PowerShift#readme"
+  "homepage": "https://github.com/Ofer-Idan/PowerShift#readme",
+  "dependencies": {
+    "material-design-lite": "^1.1.3"
+  }
 }
