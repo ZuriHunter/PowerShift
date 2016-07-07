@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/Ofer-Idan/PowerShift#readme",
   "dependencies": {
+    "easywizard": "^0.2.0",
+    "material-design-icons": "^2.2.3",
     "material-design-lite": "^1.1.3"
   }
 }
