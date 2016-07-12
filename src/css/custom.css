@@ -66,8 +66,38 @@ li a {
     height: 100%;
 }
 
+.hp-text {
+	text-align: center;
+	padding-top: 20%;
+}
+
+.hp-text > h1 {
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.hp-text > p {
+	font-size: 30px;
+	padding-bottom: 40px;
+}
+
 .primary {
 	color: #2A3591;
+}
+
+button {
+	color: white;
+	background-color: #EF1716;
+	border-color: transparent;
+	padding: 20px 20px 20px 20px;
+	font-weight: bold;
+	font-size: 25px;
+	border-radius: 4px;
+}
+
+.btn-space {
+	margin-right: 120px;
 }
 
 body, html {
