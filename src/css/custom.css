@@ -5,21 +5,21 @@
 
 /** FONTS **/
 @font-face {
-	font-family: 'moon-bold';
-  src: url('../assets/Moon/moon-bold.otf') format('opentype');
+	font-family: 'opens-sans-regular';
+  src: url('../assets/AdobeCaslon/ACaslonPro-Regular.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'moon-light';
-	src: url('../assets/Moon/moon-light.otf') format('opentype');
+	font-family: 'open-sans-semi-bold';
+	src: url('../assets/AdobeCaslon/ACaslonPro-Semibold.otf') format('opentype');
 }
 
 p {
-	font-family: 'moon-light', sans-serif;
+	font-family: 'open-sans-regular', sans-serif;
 }
 
 .bold-text {
-	font-family: 'moon-bold', sans-serif;
+	font-family: 'open-sans-semi-bold', sans-serif;
 }
 /** FONTS **/
 
