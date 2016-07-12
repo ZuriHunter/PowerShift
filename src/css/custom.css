@@ -6,12 +6,20 @@
 /** FONTS **/
 @font-face {
 	font-family: 'moon-bold';
-  src: url();
+  src: url('../assets/Moon/moon-bold.otf') format('opentype');
 }
 
 @font-face {
 	font-family: 'moon-light';
-	src: url();
+	src: url('../assets/Moon/moon-light.otf') format('opentype');
+}
+
+p {
+	font-family: 'moon-light', sans-serif;
+}
+
+.bold-text {
+	font-family: 'moon-bold', sans-serif;
 }
 /** FONTS **/
 
