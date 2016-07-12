@@ -5,7 +5,13 @@
 
 /** FONTS **/
 @font-face {
+	font-family: 'moon-bold';
   src: url();
+}
+
+@font-face {
+	font-family: 'moon-light';
+	src: url();
 }
 /** FONTS **/
 
@@ -22,6 +28,7 @@ ul {
 li {
     float: right;
 }
+
 .logo {
   float: left;
   display: block;
@@ -43,9 +50,28 @@ li a {
 /** NAVBAR **/
 
 
-button > .hp {
-  color: white;
-  background-color: #2A3591;
+.hp {
+		background-image:
+		linear-gradient(
+			rgba(255, 243, 0, 0.9),
+			rgba(255, 243, 0, 0.9)
+		),
+		url('../assets/PowershiftAssets-01.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.primary {
+	color: #2A3591;
+}
+
+body, html {
+    height: 100%;
 }
 
 /* Change the link color to #111 (black) on hover */
