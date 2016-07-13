@@ -126,6 +126,10 @@ button {
 
 .main {
 	background-image:
+	linear-gradient(
+		rgba(255, 255, 255, .89),
+		rgba(255, 255, 255, .89)
+	),
 	url('../assets/Powershift-Assets-White.png');
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -134,14 +138,24 @@ button {
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
-	opacity: 0.05;
+	/*opacity: 0.05;*/
 	filter: alpha(opacity=30); /* For IE8 and earlier */
 	z-index: -1000;
 	/*position: absolute;*/
 
 }
 .subnav {
+	color:#2A3591;
+	padding-top: 40px;
+	font-size: 20px;
+
+}
+
+.subnav li {
+	display: inline;
 	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 20px;
 
 }
 
