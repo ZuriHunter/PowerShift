@@ -5,21 +5,22 @@
 
 /** FONTS **/
 @font-face {
-	font-family: 'opens-sans-regular';
-  src: url('../assets/AdobeCaslon/ACaslonPro-Regular.otf') format('opentype');
+	font-family: 'moon-light';
+  src: url('../assets/Moon/moon-light.otf') format('opentype');
 }
 
 @font-face {
-	font-family: 'open-sans-semi-bold';
-	src: url('../assets/AdobeCaslon/ACaslonPro-Semibold.otf') format('opentype');
+	font-family: 'moon-bold';
+	src: url('../assets/Moon/moon-bold.otf') format('opentype');
 }
 
 p {
-	font-family: 'open-sans-regular', sans-serif;
+	font-family: 'moon-light', sans-serif;
+	text-transform: capitalize;
 }
 
 .bold-text {
-	font-family: 'open-sans-semi-bold', sans-serif;
+	font-family: 'moon-bold', sans-serif;
 }
 /** FONTS **/
 
@@ -45,6 +46,15 @@ li {
   padding: 14px 16px;
   text-decoration: none;
   padding-top: 25px;
+
+}
+
+.logo-ps {
+	height: auto;
+	width: 256px;
+	max-height: 78px;
+	max-width: 350px;
+
 }
 
 li a {
@@ -53,7 +63,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    padding-top: 25px;
+    padding-top: 50px;
+		font-size: 20px;
 }
 /** NAVBAR **/
 
@@ -106,6 +117,23 @@ button {
 
 .btn-space {
 	margin-right: 120px;
+}
+
+.main {
+	background-image:
+	linear-gradient(
+		rgba(255, 255, 0, 0.6),
+		rgba(255, 255, 0, 0.6)
+	),
+	url('../assets/PowershiftAssets-01.png');
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+
 }
 
 body, html {
